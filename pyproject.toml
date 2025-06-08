@@ -5,5 +5,11 @@ description = "Some tools for learning about radio waterfalls"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "httpx>=0.28.1",
     "ipykernel>=6.29.5",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "websockets>=15.0.1",
 ]
+[tool.flake8]
+max-line-length = 120
