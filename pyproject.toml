@@ -1,0 +1,9 @@
+[project]
+name = "openwebrx-waterfalls"
+version = "0.1.0"
+description = "Some tools for learning about radio waterfalls"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+]
