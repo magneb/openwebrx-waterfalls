@@ -7,8 +7,12 @@ requires-python = ">=3.11"
 dependencies = [
     "httpx>=0.28.1",
     "ipykernel>=6.29.5",
+    "ipython>=9.3.0",
     "matplotlib>=3.10.3",
+    "nbformat>=5.10.4",
     "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "plotly>=6.1.2",
     "websockets>=15.0.1",
 ]
 [tool.flake8]
